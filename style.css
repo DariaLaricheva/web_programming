@@ -1,0 +1,249 @@
+header {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    text-align: left;
+    border-radius: 5px;
+    width: 100%;
+    height: 70 px;
+    box-shadow: 0 4px 10 px rgba(0,0,0,.1);
+
+  }
+  
+
+  input,
+  textarea {
+    box-sizing: border-box;
+  }
+
+
+  body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+  .input-box input,
+  .input-box textarea {
+    height: 100%; /* растягиваем на всю высоту контейнера 50px */
+    width: 100%; /* растягиваем на всю ширину */
+     /* убираем внешние края */
+    border-radius: 5px; /* скругляем края */
+    background: #f0f1f8; /* задаем цвет фона */
+    padding: 0 20px; /* отступ справа и слева 20px */
+  }
+
+
+.navbar {
+    width: 100%;
+    height: 120 px;
+    box-shadow: 0 4px 10 px rgba(0,0,0,.1);
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+}
+
+.navbar-menu li {
+    display: inline-block;
+
+}
+
+.navbar-menu li a {
+    display: inline-block;
+
+    text-decoration: none;
+    color: #868686;
+    opacity: 0.6;
+    padding: 20px;
+    transition: all .07s ease-in-out;
+
+}
+
+.navbar-menu li a:hover {
+    opacity: 1;
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: #c3c3c6;
+    padding: 20px;
+}
+
+
+
+.form {
+    border: 1px solid #545454;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+    overflow: hidden;
+    width: 240px;
+    align-content: center;
+    margin: 0 auto;
+  }
+
+textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 10px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  
+
+}
+
+
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  input {
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+    margin: 0;
+    padding: 10px;
+  }
+  .account-info {
+    padding: 20px 20px 20px 20px;
+  }
+  .account-info label {
+    color: #676767;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .account-info input {
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    color: #636466;
+    padding: 6px;
+ 
+    margin-bottom: 6px; 
+    width: 100%;
+  }
+  .account-action {
+    background: #f0f0f2;
+    border-top: 1px solid #c6c7cc;
+    padding: 20px;
+    
+  }
+  .account-action .btn {
+    background: linear-gradient(#797979, #1a1a1a);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+    padding: 8px 16px;
+    align-content: center;
+  }
+  .account-action label {
+    color: #7c7c80;
+    font-size: 12px;
+    float: left;
+    margin: 10px 0 0 20px;
+  }
+
+
+  .note-title{
+    padding: 0 20px ;
+   
+  }
+
+  .note-content{
+    font-family: 'Noto Sans', sans-serif;
+  font-size: 10px;
+    padding: 0 20px ;
+    color: #636466;
+  }
+
+  .note-date{
+    padding: 0 20px ;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 10px;
+    color: #636466;
+  }
+
+
+  .comments{
+    
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 10px;
+    color: #636466;
+
+  }
+
+
+  .recipe{
+    
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    font-family: 'Noto Sans', sans-serif;
+	  font-size: 16px;
+    overflow: hidden;
+    width: 100%;
+    align-content: center;
+    margin: 5px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10 px;
+    padding-right: 10 px;
+     
+  }
+
+  .button{
+    padding: 0 20px ;
+  }
+
+  .cat-cont{
+    
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    
+    color: #000000;
+    margin: 0 auto;
+    
+    text-align: center;
+    display: block;
+
+    text-decoration: none;
+    
+    opacity: 0.6;
+    
+    transition: all .07s ease-in-out;
+    
+
+  }
